@@ -7,8 +7,11 @@ body {
     background-color: white;
 }
 
-header {
+.botonera {
     background-color: rgb(33, 32, 32);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 .linkverde{
