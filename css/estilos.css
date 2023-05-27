@@ -30,6 +30,9 @@ body {
 a {
     color: aliceblue;
 }
+.card-body {
+    padding:1vmax
+}
 
 .btn-primary { 
     background-color: rgb(48, 225, 25);
