@@ -6,12 +6,15 @@
 body {
     background-color: white;
 }
-
-.botonera {
-    background-color: rgb(33, 32, 32);
-    position: fixed;
+header{
+    background-color: rgb(33, 32, 32); 
     width: 100%;
     z-index: 1000;
+    height: auto; 
+}
+
+.botonera {
+    position: fixed;
 }
 
 .linkverde{
@@ -30,20 +33,37 @@ body {
 a {
     color: aliceblue;
 }
+
 .card-body {
     padding:1vmax
 }
+h5{
+    font-size: 4vmin;
+}
+.card-text-oradores{
+    font-size: 2.5vmin;
+}
 
-.btn-primary { 
+.btn { 
     background-color: rgb(48, 225, 25);
 }
 
+.card-text {
+    font-size: 3vmin;
+}
 footer {
     background-color: rgb(0, 70, 81);
 }
 
 .ul {
     width: 1000px;
+}
+h6{
+    font-weight: bold;
+}
+.leyenda{
+    color: rgb(106, 126, 144);
+    font-size: small;
 }
 
 
